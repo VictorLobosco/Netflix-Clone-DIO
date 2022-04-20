@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsive-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">TOKOFLIX</h2>
+            <nav>
+                <img src="https://i1.sndcdn.com/artworks-000198524344-3m5rfb-t500x500.jpg" alt="profile picutre" id="user_photo">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Janperson</h3>
+                <p class="descricao">Cientistas criam um robô capaz de acabar com os mais diversos criminosos o MX-A1,Tudo parecia estar correndo bem, até o dia em que ele foi exposto a uma bateria de testes. O robô, além de destruir os androides, atacou a equipe de cientistas que o construiu, os cientistas resolvem desmontá-lo, a jovem Kaoru Saegusa decide recolher os restos de MX-A1 Para fazer parte da Polícia,assim Nasce o Robô Janperson.</p>
+                <div class="botoes">
+                    <button role="button" class="botao "onclick="window.open('https://www.youtube.com/watch?v=7MbnSRrwW10','_blank')">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="window.open('https://metalheroes.fandom.com/wiki/Tokusou_Robo_Janperson','_blank')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <h3 class="mais-vistos">Mais vistos</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="ChangeInfo('Winspector','O progresso científico e tecnológico, da mesma forma que trouxe bem estar e conforto para a humanidade, também permitiu que bandidos de toda a espécie cometessem suas atrocidades de maneira mais fácil e impune. o Chefe Shunsuke Massaki organiza uma força especial de combate a crimes, como forma de equilibrar as forças do bem e do mal, surgindo assim Winspector.','https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/67wMDOSORFY2UC5RH85PVoIlnce.jpg', 'https://www.youtube.com/watch?v=Lq4V7pGhLsg', 'https://metalheroes.fandom.com/wiki/Tokkei_Winspector')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cjATkbcmt9dM8LmrwK1u5tFQCRi.jpg" alt="">
+            </div>
+            <div class="item" onclick="ChangeInfo('Sharivan','Den Iga passa a ocupar o posto de Detetive Espacial na Terra, enquanto que seu antecessor Gyaban é promovido para capitão. Desta vez a ameaça é a Sociedade Secreta MAD (Maddou no Original), liderada por Maoh Saiki (Maoh Psycho).','https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/weERli845EWZ1y78qDbEO38N2iA.jpg', 'https://www.youtube.com/watch?v=3lC094ENhik&list=PL4rzcHfrDGhmNSUwPCPzNpyXtuCw5AlBR' , 'https://metalheroes.fandom.com/wiki/Uchuu_Keiji_Sharivan')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mqhh6mu6T8cLr2OTrGCFZ7PXGAR.jpg" alt="">
+            </div>
+            <div class="item" onclick="ChangeInfo('Captain Ultra ','Na segunda metade do século 21, o Capitão Ultra e a tripulação de sua nave, a Mighty Spiegel, se opõem aos alienígenas Vandel.','https://tokusatsu.blog.br/wp-content/uploads/2020/09/Captain-Ultra-925x308.png', 'https://www.youtube.com/watch?v=pmmJcePo-Hc&list=PL4rzcHfrDGhm7n7CDKesevgOgEeiF1xrG', 'https://tokusatsu.fandom.com/wiki/Captain_Ultra')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5yXoSbc8lqiSi6vTbSDW4y86BSR.jpg"  alt="">
+            </div>
+            <div class="item" onclick="ChangeInfo('Janperson','Cientistas criam um robô capaz de acabar com os mais diversos criminosos o MX-A1,Tudo parecia estar correndo bem, até o dia em que ele foi exposto a uma bateria de testes. O robô, além de destruir os androides, atacou a equipe de cientistas que o construiu, os cientistas resolvem desmontá-lo, a jovem Kaoru Saegusa decide recolher os restos de MX-A1 Para fazer parte da Polícia,assim Nasce o Robô Janperson.','https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uz6YHe3JfrjTHdY1asYHq6dvQxG.jpg', 'https://www.youtube.com/watch?v=7MbnSRrwW10' , 'https://metalheroes.fandom.com/wiki/Tokusou_Robo_Janperson')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/boP1BHIka5Dgh1qLtjBztRCyU2O.jpg" alt="">
+            </div>
+            <div class="item" onclick="ChangeInfo('Henshin Ninja Arashi','Durante o período Edo, Henshin Ninja Arashi e seus aliados lutam pela paz.','https://dg31sz3gwrwan.cloudfront.net/fanart/227831/1262456-0-q80.jpg', 'https://www.youtube.com/watch?v=eM4tSRUMShg&list=PL4rzcHfrDGhn-M0AMF7s9eqITVLCDy1wi', 'https://tokusatsu.fandom.com/wiki/Henshin_Ninja_Arashi')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/azokJEYd6ZYaUiNUSPlPBzFQzs0.jpg" alt="">
+            </div>
+            <div class="item" onclick="ChangeInfo('Kamen Rider','Uma longa série japonesa que gira um volta de diferentes grupos de pessoas que podem se transformar em super-heróis com temáticas variadas e que geralmente pilotam uma moto.','https://nerdist.com/wp-content/uploads/2020/07/Kamen-Rider-71-featured.jpg', 'https://www.youtube.com/watch?v=9y56V0RHYOg', 'https://kamenrider.fandom.com/wiki/Kamen_Rider')">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--javascript-->>
+    <script src="https://kit.fontawesome.com/1f67a146af.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/handler.js"></script>
+</body>
+</html>
